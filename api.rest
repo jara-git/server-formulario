@@ -1,6 +1,4 @@
 //archivo para probar las rutas, sustituto de postman
-
-
 ###
 
 GET http://localhost:4000/api/users  
@@ -20,10 +18,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:4000/api/users/f5bba3692a6a478bbc533c6b2
+GET http://localhost:4000/api/users/60bf3ad40580330933203759
 
 ###
-PUT http://localhost:4000/api/users/f5bba3692a6a478bbc533c6b2
+PUT http://localhost:4000/api/users/60bf3ad40580330933203759
 Content-Type: application/json
 
 {
@@ -37,4 +35,4 @@ Content-Type: application/json
 }
 
 ### 
-DELETE http://localhost:4000/api/users/f5bba3692a6a478bbc533c6b2
+DELETE http://localhost:4000/api/users/60bf3ad40580330933203759

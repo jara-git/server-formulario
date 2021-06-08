@@ -1,4 +1,3 @@
-
 //conexión con la bd
 const mongoose = require("mongoose");
 
@@ -12,4 +11,4 @@ mongoose
     .then((db) => console.log("la base de datos está conectada"))
     .catch((err) => console.error(err));
 
-// module.exports = mongoose;
+module.exports = mongoose;
